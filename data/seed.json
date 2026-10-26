@@ -1,0 +1,1400 @@
+{
+  "meta": {
+    "name": "Arquivo Cívico BR — acervo base",
+    "snapshotDate": "2026-10-26",
+    "partyCount": 30,
+    "senateCount": 81,
+    "warnings": [
+      "Dados públicos sujeitos a atualizações.",
+      "Partido de senador é retrato de 25/10/2026, não afirmação permanente.",
+      "Nenhum dossiê judicial vinculado sem processo, órgão e documento primário."
+    ]
+  },
+  "parties": [
+    {
+      "sigla": "MDB",
+      "nome": "Movimento Democrático Brasileiro",
+      "deferimento": "30/06/1981",
+      "numero": 15,
+      "dirigente": "Luiz Felipe Baleia Tenuto Rossi",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PDT",
+      "nome": "Partido Democrático Trabalhista",
+      "deferimento": "10/11/1981",
+      "numero": 12,
+      "dirigente": "Carlos Roberto Lupi",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PT",
+      "nome": "Partido dos Trabalhadores",
+      "deferimento": "11/02/1982",
+      "numero": 13,
+      "dirigente": "Edson Antonio Edinho da Silva",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PCdoB",
+      "nome": "Partido Comunista do Brasil",
+      "deferimento": "23/06/1988",
+      "numero": 65,
+      "dirigente": "Nádia Campeão (em exercício)",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PSB",
+      "nome": "Partido Socialista Brasileiro",
+      "deferimento": "01/07/1988",
+      "numero": 40,
+      "dirigente": "João Henrique de Andrade Lima Campos",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PSDB",
+      "nome": "Partido da Social Democracia Brasileira",
+      "deferimento": "24/08/1989",
+      "numero": 45,
+      "dirigente": "Aécio Neves da Cunha",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "AGIR",
+      "nome": "Agir",
+      "deferimento": "22/02/1990",
+      "numero": 36,
+      "dirigente": "Daniel S. Tourinho",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "MOBILIZA",
+      "nome": "Mobilização Nacional",
+      "deferimento": "25/10/1990",
+      "numero": 33,
+      "dirigente": "Antonio Carlos Bosco Massarollo",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "CIDADANIA",
+      "nome": "Cidadania",
+      "deferimento": "19/03/1992",
+      "numero": 23,
+      "dirigente": "Alex Spinelli Manente",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PV",
+      "nome": "Partido Verde",
+      "deferimento": "30/09/1993",
+      "numero": 43,
+      "dirigente": "José Luiz de França Penna",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "AVANTE",
+      "nome": "Avante",
+      "deferimento": "11/10/1994",
+      "numero": 70,
+      "dirigente": "Luis Henrique de Oliveira Resende",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PP",
+      "nome": "Progressistas",
+      "deferimento": "16/11/1995",
+      "numero": 11,
+      "dirigente": "Ciro Nogueira Lima Filho",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PSTU",
+      "nome": "Partido Socialista dos Trabalhadores Unificado",
+      "deferimento": "19/12/1995",
+      "numero": 16,
+      "dirigente": "José Maria de Almeida",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PCB",
+      "nome": "Partido Comunista Brasileiro",
+      "deferimento": "09/05/1996",
+      "numero": 21,
+      "dirigente": "Edmilson Silva Costa",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PRTB",
+      "nome": "Partido Renovador Trabalhista Brasileiro",
+      "deferimento": "18/02/1997",
+      "numero": 28,
+      "dirigente": "Leonardo Alves de Araújo",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "DC",
+      "nome": "Democracia Cristã",
+      "deferimento": "05/08/1997",
+      "numero": 27,
+      "dirigente": "João Caldas da Silva (em exercício)",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PCO",
+      "nome": "Partido da Causa Operária",
+      "deferimento": "30/09/1997",
+      "numero": 29,
+      "dirigente": "Rui Costa Pimenta",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PODE",
+      "nome": "Podemos",
+      "deferimento": "02/10/1997",
+      "numero": 20,
+      "dirigente": "Renata Hellmeister de Abreu",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "REPUBLICANOS",
+      "nome": "Republicanos",
+      "deferimento": "25/08/2005",
+      "numero": 10,
+      "dirigente": "Marcos Antonio Pereira",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PSOL",
+      "nome": "Partido Socialismo e Liberdade",
+      "deferimento": "15/09/2005",
+      "numero": 50,
+      "dirigente": "Paula Bermudes Moraes Coradi",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PL",
+      "nome": "Partido Liberal",
+      "deferimento": "19/12/2006",
+      "numero": 22,
+      "dirigente": "Valdemar Costa Neto",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PSD",
+      "nome": "Partido Social Democrático",
+      "deferimento": "27/09/2011",
+      "numero": 55,
+      "dirigente": "Gilberto Kassab",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "SOLIDARIEDADE",
+      "nome": "Solidariedade",
+      "deferimento": "24/09/2013",
+      "numero": 77,
+      "dirigente": "Paulo Pereira da Silva",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "NOVO",
+      "nome": "Partido Novo",
+      "deferimento": "15/09/2015",
+      "numero": 30,
+      "dirigente": "Eduardo Rodrigo Fernandes Ribeiro",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "REDE",
+      "nome": "Rede Sustentabilidade",
+      "deferimento": "22/09/2015",
+      "numero": 18,
+      "dirigente": "Paulo Roberto Lamac Junior",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "DEMOCRATA",
+      "nome": "Democrata",
+      "deferimento": "29/09/2015",
+      "numero": 35,
+      "dirigente": "Suêd Haidar Nogueira",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "UP",
+      "nome": "Unidade Popular",
+      "deferimento": "10/12/2019",
+      "numero": 80,
+      "dirigente": "Leonardo Pericles Vieira Roque",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "UNIÃO",
+      "nome": "União Brasil",
+      "deferimento": "08/02/2022",
+      "numero": 44,
+      "dirigente": "Antônio Eduardo Gonçalves de Rueda",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "PRD",
+      "nome": "Partido Renovação Democrática",
+      "deferimento": "09/11/2023",
+      "numero": 25,
+      "dirigente": "Marcus Vinícius de Vasconcelos Ferreira",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    },
+    {
+      "sigla": "MISSÃO",
+      "nome": "Partido Missão",
+      "deferimento": "04/11/2025",
+      "numero": 14,
+      "dirigente": "Renan Antonio Ferreira dos Santos",
+      "source": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "sourceDate": "2026-10-26",
+      "provenance": "TSE"
+    }
+  ],
+  "senators": [
+    {
+      "id": "sen1",
+      "nome": "Alan Rick",
+      "partido": "REPUBLICANOS",
+      "uf": "AC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen2",
+      "nome": "Alessandro Vieira",
+      "partido": "MDB",
+      "uf": "SE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen3",
+      "nome": "Ana Paula Lobato",
+      "partido": "PSB",
+      "uf": "MA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen4",
+      "nome": "Angelo Coronel",
+      "partido": "REPUBLICANOS",
+      "uf": "BA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen5",
+      "nome": "Astronauta Marcos Pontes",
+      "partido": "PL",
+      "uf": "SP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen6",
+      "nome": "Beto Faro",
+      "partido": "PT",
+      "uf": "PA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen7",
+      "nome": "Camilo Santana",
+      "partido": "PT",
+      "uf": "CE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen8",
+      "nome": "Carlos Fávaro",
+      "partido": "PSD",
+      "uf": "MT",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen9",
+      "nome": "Carlos Portinho",
+      "partido": "PL",
+      "uf": "RJ",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen10",
+      "nome": "Carlos Viana",
+      "partido": "PSD",
+      "uf": "MG",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen11",
+      "nome": "Chico Rodrigues",
+      "partido": "PSB",
+      "uf": "RR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen12",
+      "nome": "Cid Gomes",
+      "partido": "PSB",
+      "uf": "CE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen13",
+      "nome": "Ciro Nogueira",
+      "partido": "PP",
+      "uf": "PI",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen14",
+      "nome": "Cleitinho",
+      "partido": "REPUBLICANOS",
+      "uf": "MG",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen15",
+      "nome": "Confucio Moura",
+      "partido": "MDB",
+      "uf": "RO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen16",
+      "nome": "Damares Alves",
+      "partido": "REPUBLICANOS",
+      "uf": "DF",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen17",
+      "nome": "Daniella Ribeiro",
+      "partido": "PP",
+      "uf": "PB",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen18",
+      "nome": "Davi Alcolumbre",
+      "partido": "UNIÃO",
+      "uf": "AP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen19",
+      "nome": "Dr. Hiran",
+      "partido": "PP",
+      "uf": "RR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen20",
+      "nome": "Dra. Eudocia",
+      "partido": "PSDB",
+      "uf": "AL",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen21",
+      "nome": "Eduardo Braga",
+      "partido": "MDB",
+      "uf": "AM",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen22",
+      "nome": "Eduardo Gomes",
+      "partido": "PL",
+      "uf": "TO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen23",
+      "nome": "Efraim Filho",
+      "partido": "PL",
+      "uf": "PB",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen24",
+      "nome": "Eliziane Gama",
+      "partido": "PSD",
+      "uf": "MA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen25",
+      "nome": "Esperidião Amin",
+      "partido": "PP",
+      "uf": "SC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen26",
+      "nome": "Fabiano Contarato",
+      "partido": "PT",
+      "uf": "ES",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen27",
+      "nome": "Fernando Dueire",
+      "partido": "PSD",
+      "uf": "PE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen28",
+      "nome": "Flávio Arns",
+      "partido": "PSB",
+      "uf": "PR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen29",
+      "nome": "Flávio Bolsonaro",
+      "partido": "PL",
+      "uf": "RJ",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen30",
+      "nome": "Giordano",
+      "partido": "PODE",
+      "uf": "SP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen31",
+      "nome": "Hamilton Mourão",
+      "partido": "REPUBLICANOS",
+      "uf": "RS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen32",
+      "nome": "Humberto Costa",
+      "partido": "PT",
+      "uf": "PE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen33",
+      "nome": "Irajá",
+      "partido": "PSD",
+      "uf": "TO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen34",
+      "nome": "Ivete Da Silveira",
+      "partido": "MDB",
+      "uf": "SC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen35",
+      "nome": "Izalci Lucas",
+      "partido": "PL",
+      "uf": "DF",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen36",
+      "nome": "Jader Barbalho",
+      "partido": "MDB",
+      "uf": "PA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen37",
+      "nome": "Jaime Bagattoli",
+      "partido": "PL",
+      "uf": "RO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen38",
+      "nome": "Jaques Wagner",
+      "partido": "PT",
+      "uf": "BA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen39",
+      "nome": "Jayme Campos",
+      "partido": "UNIÃO",
+      "uf": "MT",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen40",
+      "nome": "Jorge Kajuru",
+      "partido": "PSB",
+      "uf": "GO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen41",
+      "nome": "Jorge Seif",
+      "partido": "PL",
+      "uf": "SC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen42",
+      "nome": "Jussara Lima",
+      "partido": "PSD",
+      "uf": "PI",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen43",
+      "nome": "Laércio Oliveira",
+      "partido": "PP",
+      "uf": "SE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen44",
+      "nome": "Leany Lemos",
+      "partido": "PSB",
+      "uf": "DF",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen45",
+      "nome": "Lucas Barreto",
+      "partido": "PSD",
+      "uf": "AP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen46",
+      "nome": "Luis Carlos Heinze",
+      "partido": "PP",
+      "uf": "RS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen47",
+      "nome": "Magno Malta",
+      "partido": "PL",
+      "uf": "ES",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen48",
+      "nome": "Mara Gabrilli",
+      "partido": "PSD",
+      "uf": "SP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen49",
+      "nome": "Marcelo Castro",
+      "partido": "MDB",
+      "uf": "PI",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen50",
+      "nome": "Marcio Bittar",
+      "partido": "PL",
+      "uf": "AC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen51",
+      "nome": "Marcos do Val",
+      "partido": "AVANTE",
+      "uf": "ES",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen52",
+      "nome": "Marcos Rogério",
+      "partido": "PL",
+      "uf": "RO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen53",
+      "nome": "Nelsinho Trad Filho",
+      "partido": "PSD",
+      "uf": "MS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen54",
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "uf": "AM",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen55",
+      "nome": "Oriovisto Guimarães",
+      "partido": "PSDB",
+      "uf": "PR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen56",
+      "nome": "Otto Alencar",
+      "partido": "PSD",
+      "uf": "BA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen57",
+      "nome": "Paulo Paim",
+      "partido": "PT",
+      "uf": "RS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen58",
+      "nome": "Plínio Valério",
+      "partido": "PSDB",
+      "uf": "AM",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen59",
+      "nome": "Professora Dorinha Seabra",
+      "partido": "UNIÃO",
+      "uf": "TO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen60",
+      "nome": "Randolfe Rodrigues",
+      "partido": "PT",
+      "uf": "AP",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen61",
+      "nome": "Renan Calheiros",
+      "partido": "MDB",
+      "uf": "AL",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen62",
+      "nome": "Renan Filho",
+      "partido": "MDB",
+      "uf": "AL",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen63",
+      "nome": "Renzo Braz",
+      "partido": "PP",
+      "uf": "MG",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen64",
+      "nome": "Roberta Acioly",
+      "partido": "REPUBLICANOS",
+      "uf": "RR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen65",
+      "nome": "Rogério Carvalho",
+      "partido": "PT",
+      "uf": "SE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen66",
+      "nome": "Rogerio Marinho",
+      "partido": "PL",
+      "uf": "RN",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen67",
+      "nome": "Romário",
+      "partido": "S/Partido",
+      "uf": "RJ",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen68",
+      "nome": "Sargento Reginauro",
+      "partido": "PSDB",
+      "uf": "CE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen69",
+      "nome": "Sergio Moro",
+      "partido": "PL",
+      "uf": "PR",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen70",
+      "nome": "Sérgio Petecão",
+      "partido": "PSD",
+      "uf": "AC",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen71",
+      "nome": "Soraya Thronicke",
+      "partido": "PSB",
+      "uf": "MS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen72",
+      "nome": "Styvenson Valentim",
+      "partido": "PODE",
+      "uf": "RN",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen73",
+      "nome": "Teresa Leitão",
+      "partido": "PT",
+      "uf": "PE",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen74",
+      "nome": "Tereza Cristina",
+      "partido": "PP",
+      "uf": "MS",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen75",
+      "nome": "Vanderlan Cardoso",
+      "partido": "PSD",
+      "uf": "GO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen76",
+      "nome": "Veneziano Vital Do Rêgo",
+      "partido": "MDB",
+      "uf": "PB",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen77",
+      "nome": "Wellington Fagundes",
+      "partido": "PL",
+      "uf": "MT",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen78",
+      "nome": "Weverton",
+      "partido": "PDT",
+      "uf": "MA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen79",
+      "nome": "Wilder Morais",
+      "partido": "PL",
+      "uf": "GO",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen80",
+      "nome": "Zenaide Maia",
+      "partido": "PSD",
+      "uf": "RN",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    },
+    {
+      "id": "sen81",
+      "nome": "Zequinha Marinho",
+      "partido": "PODE",
+      "uf": "PA",
+      "camara": "Senado",
+      "fonte": "Senado — relação de senadores em exercício",
+      "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores?formato=html",
+      "sourceDate": "2026-10-25",
+      "kind": "snapshot",
+      "nota": "Lista oficial consultada em 25/10/2026. Verificar titularidade e exercício atual na fonte antes de citar."
+    }
+  ],
+  "historical": [
+    {
+      "id": "hist-lula",
+      "nome": "Luiz Inácio Lula da Silva",
+      "descricao": "Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    },
+    {
+      "id": "hist-bolsonaro",
+      "nome": "Jair Messias Bolsonaro",
+      "descricao": "Ex-Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    },
+    {
+      "id": "hist-dilma",
+      "nome": "Dilma Vana Rousseff",
+      "descricao": "Ex-Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    },
+    {
+      "id": "hist-temer",
+      "nome": "Michel Miguel Elias Temer Lulia",
+      "descricao": "Ex-Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    },
+    {
+      "id": "hist-fhc",
+      "nome": "Fernando Henrique Cardoso",
+      "descricao": "Ex-Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    },
+    {
+      "id": "hist-collor",
+      "nome": "Fernando Collor de Mello",
+      "descricao": "Ex-Presidência da República — trajetória e atos oficiais a consultar",
+      "camara": "Executivo / histórico",
+      "source": "https://www.gov.br/planalto/pt-br"
+    }
+  ],
+  "federations": [
+    {
+      "nome": "Federação União Progressista",
+      "siglas": [
+        "UNIÃO",
+        "PP"
+      ],
+      "registro": "26/03/2026"
+    },
+    {
+      "nome": "Federação Renovação Solidária",
+      "siglas": [
+        "PRD",
+        "SOLIDARIEDADE"
+      ],
+      "registro": "04/12/2025"
+    },
+    {
+      "nome": "Federação Brasil da Esperança",
+      "siglas": [
+        "PT",
+        "PCdoB",
+        "PV"
+      ],
+      "registro": "24/05/2022"
+    },
+    {
+      "nome": "Federação PSDB Cidadania",
+      "siglas": [
+        "PSDB",
+        "CIDADANIA"
+      ],
+      "registro": "26/05/2022"
+    },
+    {
+      "nome": "Federação PSOL REDE",
+      "siglas": [
+        "PSOL",
+        "REDE"
+      ],
+      "registro": "26/05/2022"
+    }
+  ],
+  "changes": [
+    {
+      "title": "Fusão de PSL e DEM na União Brasil",
+      "date": "08/02/2022",
+      "link": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "siglas": [
+        "UNIÃO"
+      ]
+    },
+    {
+      "title": "Fusão de PTB e Patriota no PRD",
+      "date": "09/11/2023",
+      "link": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse",
+      "siglas": [
+        "PRD"
+      ]
+    },
+    {
+      "title": "Federações partidárias registradas",
+      "date": "2022–2026",
+      "link": "https://www.tse.jus.br/partidos/federacoes-registradas-no-tse",
+      "siglas": []
+    }
+  ]
+}

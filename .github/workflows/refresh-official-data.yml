@@ -1,0 +1,31 @@
+name: Atualizar dados oficiais da Câmara
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_official.py'
+      - 'data/seed.json'
+  workflow_dispatch:
+  schedule:
+    - cron: '35 9 * * *'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar API oficial e validar volume
+        run: python scripts/update_official.py
+      - name: Enviar snapshot quando houver alteração
+        run: |
+          git config user.name "arquivo-civico-bot"
+          git config user.email "arquivo-civico-bot@users.noreply.github.com"
+          git add data/deputados.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update official Chamber of Deputies snapshot"
+            git push
+          fi
