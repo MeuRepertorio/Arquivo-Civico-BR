@@ -31,6 +31,22 @@ def run():
   p=ROOT/'data'/'deputados.json'
   output={'source':BASE+'/deputados','institution':'Câmara dos Deputados','capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'count':len(people),'items':people,'note':'Registro de deputados na API no instante da coleta; mandatos, nomes e partidos podem mudar.'}
   p.write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+  # A second, explicitly bounded legislative snapshot for the public dashboard.
+  # Only real API responses are published; failed requests retain the prior file.
+  try:
+    propositions=request(BASE+'/proposicoes?itens=35&ordem=DESC&ordenarPor=id').get('dados',[])
+    voting=request(BASE+'/votacoes?itens=30&ordem=DESC&ordenarPor=dataHoraRegistro').get('dados',[])
+    if not isinstance(propositions,list) or not isinstance(voting,list):
+      raise ValueError('Unexpected legislative API response')
+    proposals=[{'id':x.get('id'),'tipo':x.get('siglaTipo',''),'numero':x.get('numero'),'ano':x.get('ano'),'title':x.get('ementa',''),'source':f'https://www.camara.leg.br/propostas-legislativas/{x.get("id")}'} for x in propositions if x.get('id') and x.get('ementa')]
+    ballots=[{'id':str(x.get('id')),'data':x.get('dataHoraRegistro',''),'descricao':x.get('descricao',''),'orgao':x.get('siglaOrgao',''),'source':f'https://www.camara.leg.br/'} for x in voting if x.get('id')]
+    if len(proposals)<10 or len(ballots)<5:
+      raise ValueError('Insufficient legislative records')
+    snapshot={'capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'sources':{'proposicoes':BASE+'/proposicoes','votacoes':BASE+'/votacoes'},'proposicoes':proposals,'votacoes':ballots,'note':'Amostra limitada de registros oficiais, não representa a totalidade de proposições e votações.'}
+    (ROOT/'data'/'legislativo.json').write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+    print('Saved',len(proposals),'propositions and',len(ballots),'voting records')
+  except Exception as ex:
+    print('Legislative snapshot unavailable; prior data retained:',ex,file=sys.stderr)
   print('Saved',len(people),'official deputy records to',p)
 if __name__=='__main__':
   try:run()
