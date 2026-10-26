@@ -22,4 +22,4 @@ jobs:
           node --check assets/app.js
           node --check data/seed.js
           python scripts/validate_archive.py
-          python -m py_compile scripts/make_seed.py scripts/update_official.py scripts/validate_archive.py
+          python -m py_compile scripts/make_seed.py scripts/update_official.py scripts/update_legislative.py scripts/validate_archive.py

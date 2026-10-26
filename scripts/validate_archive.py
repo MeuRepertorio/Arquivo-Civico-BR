@@ -6,9 +6,9 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
-    'index.html','assets/app.js','assets/style.css','assets/logo.svg',
+    'index.html','assets/app.js','assets/style.css','assets/observatory.css','assets/logo.svg',
     'data/seed.json','data/seed.js','docs/EDITORIAL.md','docs/schema.sql',
-    'scripts/update_official.py','manifest.webmanifest','sw.js'
+    'scripts/update_official.py','scripts/update_legislative.py','manifest.webmanifest','sw.js'
 ]
 
 def require(ok, why):
@@ -35,7 +35,7 @@ def main():
     require(json.loads(js[len('window.ARCHIVE_SEED = '):].rstrip().removesuffix(';')) == seed, 'seed.js e seed.json divergentes')
     html = (ROOT/'index.html').read_text(encoding='utf-8')
     require('data/seed.js' in html and 'assets/app.js' in html, 'HTML não inicializa scripts de dados e interface')
-    for path in ('data/seed.js','assets/app.js','assets/style.css','assets/logo.svg'):
+    for path in ('data/seed.js','assets/app.js','assets/style.css','assets/observatory.css','assets/logo.svg'):
         require(path in html, f'HTML não inclui {path}')
     deputy_path = ROOT/'data/deputados.json'
     if deputy_path.exists():
@@ -48,6 +48,23 @@ def main():
         print(f'Câmara: {len(items)} registros verificados estruturalmente, data {deputies.get("capturedAt")}')
     else:
         print('Câmara: snapshot ainda não criado; carregamento sob demanda previsto')
+    legislative_path = ROOT/'data/legislativo.json'
+    if legislative_path.exists():
+        sample=json.loads(legislative_path.read_text(encoding='utf-8'))
+        require(sample.get('institution') == 'Câmara dos Deputados','Origem da amostra legislativa inválida')
+        require(official_link(sample.get('sources',{}).get('proposicoes')),'Proposições sem URL de origem')
+        require(official_link(sample.get('sources',{}).get('votacoes')),'Votações sem URL de origem')
+        props=sample.get('proposicoes',[])
+        votes=sample.get('votacoes',[])
+        require(30 <= len(props) <= 100,'Volume inesperado de proposições na amostra')
+        require(10 <= len(votes) <= 50,'Volume inesperado de votações na amostra')
+        require(all(official_link(p.get('url')) and p.get('id') and p.get('ementa') for p in props),'Proposição sem identificação/ementa/fonte')
+        require(all(official_link(v.get('url')) and v.get('id') and v.get('data') for v in votes),'Votação sem identificação/data/fonte')
+        require(sample.get('counts',{}).get('proposicoesNaAmostra')==len(props),'Contagem de proposições incorreta')
+        require(sample.get('counts',{}).get('votacoesNaAmostra')==len(votes),'Contagem de votações incorreta')
+        print(f'Legislativo: {len(props)} proposições e {len(votes)} votações na amostra, coleta {sample.get("capturedAt")}')
+    else:
+        print('Legislativo: amostra ainda não publicada')
     print(f'OK — {len(seed["parties"])} partidos; {len(seed["senators"])} senadores; {len(seed["federations"])} federações; referências HTTPS presentes.')
     print('Importante: integridade estrutural não equivale a validação jurídica de fatos individuais.')
 
