@@ -1,4 +1,4 @@
-# Arquivo Cívico BR
+# Arquivo Cívico BR — Observatório 2.0
 
 Enciclopédia visual de políticos, partidos, proposições, votações e fontes oficiais brasileiras. Projeto editorial independente e sem orientação político-partidária.
 
@@ -16,6 +16,16 @@ Enciclopédia visual de políticos, partidos, proposições, votações e fontes
 - **Executivo histórico:** seis nomes como pontos de partida, com link ao Planalto; filiação histórica, gastos e processos judiciais **não** são presumidos.
 - **Federações:** cinco registros listados pelo [TSE](https://www.tse.jus.br/partidos/federacoes-registradas-no-tse).
 - **Controle/judiciário:** links para TCU, CGU, STF, STJ e base de contas do TSE. Nenhuma acusação ou decisão individual foi cadastrada sem documentação específica.
+
+
+## Observatório 2.0 — interface e coleta ampliada
+
+- Painel inicial inteiramente redesenhado: hero visual inspirado no Congresso, cards dinâmicos, distribuição partidária com alternância Câmara/Senado, quadro por UF, filtros de PL/PEC, votos recentes e navegação interativa.
+- Gráficos e contagens vêm **somente dos registros carregados**; nenhuma porcentagem de apoio, aprovação, desempenho ou ideologia é estimada.
+- Ações do painel levam diretamente aos filtros de políticos e às páginas documentais.
+- `scripts/update_legislative.py` consulta listas recentes de proposições e votações no endpoint da **API Dados Abertos da Câmara** e gera `data/legislativo.json` com URL, horário da coleta e amostra limitada. A rotina roda no GitHub Actions diariamente e em alterações do script.
+- A amostra legislativa **não deve ser apresentada como total nacional ou histórico completo**. O status de um projeto (aprovado, sancionado etc.) não é inferido da ementa.
+- O cache web muda para `acb-v2.0.0` para evitar que visitantes recebam o CSS antigo.
 
 ## Funcionalidades
 
@@ -38,14 +48,11 @@ Enciclopédia visual de políticos, partidos, proposições, votações e fontes
 - Não há avaliações, notas ou comparações prescritivas de políticos.
 - Informações não obtidas do sistema oficial são exibidas como não catalogadas.
 
-## Código, publicação e atualizações
+## GitHub
 
-- **Repositório:** https://github.com/MeuRepertorio/Arquivo-Civico-BR
-- **Site:** https://meurepertorio.github.io/Arquivo-Civico-BR/
-- **GitHub Pages:** configurar **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**, se ainda não estiver ativo.
-- **Atualizar deputados:** workflow [Atualizar dados oficiais da Câmara](https://github.com/MeuRepertorio/Arquivo-Civico-BR/actions/workflows/refresh-official-data.yml) (manualmente ou pela agenda). Resultados e falhas podem ser conferidos em Actions.
+Abra [https://github.com/new?name=Arquivo-Civico-BR](https://github.com/new?name=Arquivo-Civico-BR), crie um repositório público com branch `main` e carregue **todos** os arquivos do ZIP, preservando pastas. Depois, em **Settings → Pages**, selecione `Deploy from a branch → main → /(root)`. O site aparecerá em `https://SEU_USUARIO.github.io/Arquivo-Civico-BR/`.
 
-Os dados arquivados são fotografias datadas, não um registro instantâneo. Não se deve interpretar ausências de registros como ausência de processos.
+Para gerar o snapshot completo de deputados, abra **Actions → Atualizar dados oficiais da Câmara → Run workflow**. As dependências são apenas Python padrão e as APIs públicas. A atualização diária não é garantia de disponibilidade da fonte ou de execução do workflow.
 
 ## Limites
 

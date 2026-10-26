@@ -1,0 +1,32 @@
+name: Atualizar amostra legislativa oficial
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 10 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_legislative.py'
+permissions:
+  contents: write
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar duas listas públicas da Câmara
+        run: python scripts/update_legislative.py
+      - name: Versionar resultados válidos
+        run: |
+          git config user.name "arquivo-civico-bot"
+          git config user.email "arquivo-civico-bot@users.noreply.github.com"
+          git add data/legislativo.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update dated legislative sample from Câmara"
+            git pull --rebase origin main
+            git push
+          fi
