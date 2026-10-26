@@ -1,0 +1,31 @@
+/* Arquivo Cívico — Observatory Edition */
+:root{--motion:cubic-bezier(.22,1,.36,1)}
+body{background:radial-gradient(ellipse 80% 65% at 78% -20%,rgba(23,132,118,.13),transparent 70%),#07121c}
+.topbar{backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(130,236,209,.12)}
+.brand-mark{filter:drop-shadow(0 0 15px rgba(60,221,177,.28))}
+.main-content{background:radial-gradient(ellipse at 40% 5%,rgba(44,177,148,.045),transparent 55%)}
+.sidebar a,.icon-button,.btn,.ov-stat,.entity-card,.ov-panel,.context-box{transition:transform .28s var(--motion),background .28s,border-color .28s,box-shadow .28s}
+.ov-stat:hover,.entity-card:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(0,0,0,.2)}
+.ov-panel:hover{border-color:rgba(107,229,196,.22)}
+.ov-hero{position:relative;overflow:hidden}
+.ov-hero:after{content:'';position:absolute;inset:auto -80px -160px auto;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(55,206,161,.14),transparent 68%);pointer-events:none}
+.ov-hero h1{letter-spacing:-.055em}
+.ov-stat strong,.ov-donut-inner strong{font-variant-numeric:tabular-nums}
+.ov-stat,.ov-panel,.entity-card{animation:riseIn .65s var(--motion) both}
+.ov-stat:nth-child(2){animation-delay:.06s}.ov-stat:nth-child(3){animation-delay:.12s}.ov-stat:nth-child(4){animation-delay:.18s}.ov-stat:nth-child(5){animation-delay:.24s}
+@keyframes riseIn{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}
+.acb-launch{position:fixed;right:24px;bottom:23px;z-index:80;display:flex;align-items:center;gap:10px;background:#174438;color:#e8fff5;border:1px solid #408c73;border-radius:100px;padding:13px 20px;box-shadow:0 12px 35px #0007;cursor:pointer;font:600 13px inherit}
+.acb-launch:hover{background:#21634e;transform:translateY(-2px)}
+.acb-overlay{position:fixed;inset:0;background:rgba(2,9,16,.76);backdrop-filter:blur(12px);z-index:1000;display:grid;place-items:start center;padding:12vh 16px}
+.acb-command{width:min(660px,100%);background:#101f2c;border:1px solid #39675c;border-radius:20px;box-shadow:0 35px 100px #000b;overflow:hidden;color:#e9fff8}
+.acb-command-head{display:flex;align-items:center;gap:12px;padding:18px 22px;border-bottom:1px solid #28443e}
+.acb-command-head input{flex:1;background:transparent;border:0;outline:0;color:white;font-size:17px;min-width:0}
+.acb-command-head button{border:1px solid #3b5550;background:#1b3434;color:#b9d5cc;border-radius:7px;padding:5px 8px;cursor:pointer}
+.acb-command-list{max-height:55vh;overflow:auto;padding:10px}
+.acb-command-list a{display:flex;align-items:center;gap:13px;padding:14px 15px;border-radius:12px;text-decoration:none;color:#dcece8}
+.acb-command-list a:hover,.acb-command-list a:focus{background:#1d3e3c;outline:0}
+.acb-command-list b{display:block;font-size:14px}.acb-command-list small{display:block;color:#92aaa4;margin-top:4px}
+.acb-command-icon{width:37px;height:37px;display:grid;place-items:center;border-radius:10px;background:#25473e;color:#86f4ce;font-size:19px}
+.acb-command-foot{border-top:1px solid #28443e;padding:12px 20px;font-size:11px;color:#90b5a8}
+@media(max-width:800px){.acb-launch{right:14px;bottom:14px;padding:12px 15px}.ov-stat,.ov-panel{animation-duration:.35s}}
+@media(prefers-reduced-motion:reduce){.ov-stat,.ov-panel,.entity-card{animation:none!important}*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
